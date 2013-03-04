@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		7921DA5C16A3E6DE00059DE6 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7921DA5B16A3E6DE00059DE6 /* SenTestingKit.framework */; };
 		7921DA6616A3E6DE00059DE6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7921DA6416A3E6DE00059DE6 /* InfoPlist.strings */; };
+		794A5E9716E44A8400A8A052 /* RXInterpolationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 794A5E9616E44A8400A8A052 /* RXInterpolationTests.m */; };
 		796D7FE816DC7B3300D7911C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 796D7FE716DC7B3300D7911C /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -24,6 +25,8 @@
 		7921DA7216A3E6F500059DE6 /* RXFold.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RXFold.h; sourceTree = "<group>"; };
 		7921DA7316A3E6F500059DE6 /* RXInterpolation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RXInterpolation.h; sourceTree = "<group>"; };
 		7921DA7416A3E6F500059DE6 /* RXPaste.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RXPaste.h; sourceTree = "<group>"; };
+		794A5E9516E44A8400A8A052 /* RXInterpolationTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RXInterpolationTests.h; sourceTree = "<group>"; };
+		794A5E9616E44A8400A8A052 /* RXInterpolationTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RXInterpolationTests.m; sourceTree = "<group>"; };
 		796D7FE716DC7B3300D7911C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
@@ -71,6 +74,8 @@
 			isa = PBXGroup;
 			children = (
 				7921DA6216A3E6DE00059DE6 /* Supporting Files */,
+				794A5E9516E44A8400A8A052 /* RXInterpolationTests.h */,
+				794A5E9616E44A8400A8A052 /* RXInterpolationTests.m */,
 			);
 			path = RXPreprocessingTests;
 			sourceTree = "<group>";
@@ -176,6 +181,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				794A5E9716E44A8400A8A052 /* RXInterpolationTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
